@@ -6,7 +6,7 @@ int [] numbers = {10, 20, 30, 40, 50};
   while (index <5) {
     System.out.println("value of item:" + numbers [index]);
       index++;
-    System.out.println("in");
+    System.out.println("\n");
   }
 }
 }
