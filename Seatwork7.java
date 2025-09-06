@@ -1,18 +1,18 @@
 public class SeatworkSeven {
 public static void main (String args []) {
-char grade = `C`;
+char grade = 'C';
   
 switch(grade) {
-case `A`:
+case 'A':
 System.out.println ("Excellent");
 break;
-case `B`:
-case `C`:
+case 'B':
+case 'C':
 System.out.println("Well done");
 break;
-case `D`:
+case 'D':
 System.out.println("You passed");
-  case `F`;
+  case 'F';
     System.out.println("Better Try again");
     break;
     default;
