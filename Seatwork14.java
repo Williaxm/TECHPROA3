@@ -27,7 +27,7 @@ class Motorcycle {
 
     void startEngine() {
         if (engineState) {
-            System.out.println("Full throttle ");
+            System.out.println("Ignition Started");
         } else {
             engineState = true;
             System.out.println("Engine started.");
