@@ -4,18 +4,18 @@ public class Seatwork14 {
         //my motocycle is unique
         
         Motorcycle m = new Motorcycle();
-        m.make = "Aufklärungspanzer 38 (t) 2cm KwK 38 (Sd.Kfz.140/1).";
-        m.color = "Zimmerit";
-        System.out.println("Berufung Kommandant!......");
+        m.make = "Yamaha MT-09";
+        m.color = "Racing Blue";
+        System.out.println("Ignition check...");
         m.showAtts();
         System.out.println("...........");
-        System.out.println("Motor startet, Fahrer bereit!....");
+        System.out.println("Starting the motorcycle...");
         m.startEngine();
         System.out.println("..........");
-        System.out.println("Panzerungsdurchdringung laden....");
+        System.out.println("Checking current status...");
         m.showAtts();
         System.out.println("..........");
-        System.out.println("Schütze bereit, Fahrer vorwärts!...");
+        System.out.println("Twisting the throttle...");
         m.startEngine();
     }
 }
