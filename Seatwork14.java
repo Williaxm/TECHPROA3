@@ -27,7 +27,7 @@ class Motorcycle {
 
     void startEngine() {
         if (engineState) {
-            System.out.println("Ignition Started");
+            System.out.println("KACHOW");
         } else {
             engineState = true;
             System.out.println("Engine started.");
