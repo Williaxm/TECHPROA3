@@ -32,7 +32,7 @@ public class Seatwork12 {
         Scanner scanner = new Scanner(System.in);
 
         int[] balances = {10000, 20000, 30000};
-        System.out.println("Toby Claveria Techpro-a3");
+        System.out.println("William M. Docena Jr. Techpro-a3");
         System.out.println("*** Welcome to Simple Banking System ***");
         System.out.print("Enter account number: ");
         int accountNumber = scanner.nextInt();
