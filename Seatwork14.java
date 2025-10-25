@@ -27,7 +27,7 @@ class Motorcycle {
 
     void startEngine() {
         if (engineState) {
-            System.out.println("APCR loaded, Tank is driving forwards.");
+            System.out.println("Full throttle ");
         } else {
             engineState = true;
             System.out.println("Engine started.");
