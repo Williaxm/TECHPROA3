@@ -1,0 +1,13 @@
+import javax.swing.*;
+public class Example1 {
+    public static void main(String[] args) {
+        
+        JFrame frame = new JFrame("Test1");
+        frame.setSize(400, 300);
+
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+
+    }
+}
+//Output on VScode opened a blank new window on the task bar named "Test1"
